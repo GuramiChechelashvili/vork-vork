@@ -1,0 +1,155 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: #fcac22; */
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 80px;
+    background: #f6f6f6;
+}
+.main {
+    min-height: calc(100vh - 80px);
+    /* background: tomato; */
+    margin-top: 80px;
+}
+.main .container {
+    /* min-height: 500px; */
+    /* background: plum; */
+    padding-top: 30px;    
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.header__logo {
+    color: #fcac22;
+}
+.header-wrapper {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+.header-wrapper .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.header__list {
+    display: flex;
+}
+.header__list li:nth-child(1) {
+    background-color: green;
+}
+.header__list li:nth-child(2) {
+    background-color: green;
+}
+.header__list li {
+    margin-left: 10px;
+    padding: 10px 17px;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #fff;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    /* background: green; */
+    /* min-height: 500px; */
+}
+
+.footer-wrapper {
+    height: 50px;
+}
+
+.products-cont {
+    border: 1px solid #3cb0c3;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.products-cont__img-cont {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+h2.products-cont__title {
+    width: calc(100% - 230px);
+    text-transform: capitalize;
+}
+
+.products-cont__price-cont {
+    width: calc(100% - 230px);
+    text-transform: capitalize;
+    margin-left: 220px;
+    position: absolute;
+    top: -190px;
+}
+
+span.products-cont__unit {
+    display: block;
+    position: absolute;
+    left: 220px;
+    top: 60px;
+}
+
+.form {
+    width: 350px; 
+    padding: 30px;
+}
+.register-form {
+    /* margin-top: 110px; */
+    /* border: 1px solid red; */
+    background: black
+}
+.login-form {
+    background-color: green;
+    border-radius: 10%;
+}
+.form input, .form button {
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border: 2px solid transparent;
+}
+#registerBtn,#loginBtn {
+    border: none;
+    background: #4266b3;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2.register-heading {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.switchForm button {
+    padding: 10px 25px;
+    margin: 0px;
+    font-size: 14px;
+    color: white;
+    background: #28a745;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.warning {
+    border-color: red !important;
+}
